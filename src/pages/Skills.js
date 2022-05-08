@@ -1,7 +1,7 @@
 import React from "react";
 import { Tooltip } from "react-tippy";
 import styled from "styled-components";
-import { techSkills } from "../data/skills";
+import { techSkills , inProgress } from "../data/skills";
 
 const Skills = () => {
   return (
@@ -9,6 +9,18 @@ const Skills = () => {
       <h2>Technologies I've worked with</h2>
       <Container>
         {techSkills.map((tech) => (
+          <TechWrapper key={tech.id}>
+            <Tooltip title={tech.name} position="bottom" animation="fade">
+              <Icon>{tech.icon}</Icon>
+              {/* <Text className="paragraph">{tech.name}</Text>  */}
+            </Tooltip>
+          </TechWrapper>
+        ))}
+      </Container>
+          <hr/>
+      <Container>
+        <h2>Learning Inprogress :-</h2><br/>
+        {inProgress.map((tech) => (
           <TechWrapper key={tech.id}>
             <Tooltip title={tech.name} position="bottom" animation="fade">
               <Icon>{tech.icon}</Icon>

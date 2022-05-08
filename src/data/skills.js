@@ -38,4 +38,30 @@ export const techSkills = [
     name: "CSS3",
     icon: <FaCss3Alt />,
   },
+  {
+    id: 7,
+    name: "java",
+    icon: "java",
+  },
 ];
+
+
+export const inProgress = [
+{
+id: 1 ,
+name :"NodeJs" ,
+icon : "NodeJs",
+},
+{
+  id: 2 ,
+  name :"MongoDB" ,
+  icon : "MongoDB", 
+},
+{
+  id: 3 ,
+  name :"ExpressJs" ,
+  icon : "ExpressJs", 
+},
+
+]
+ 

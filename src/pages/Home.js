@@ -10,9 +10,12 @@ const Home = () => {
       <Container>
         <Hero>
           <h1>Akshay Chavhan</h1>
-          <p style={{ fontWeight: "500" }}>Front End Developer</p>
-          <p className="paragraph">
-            Self-taught developer with experience in Customer Service. My
+          <p style={{ fontWeight: "500" , marginBottom: "10px"}}>Front End Web Developer</p>
+          <p className="paragraph" style={{marginTop:"10px"}}>
+            Learning forward for MERN Stack Web Devoloper
+          </p>
+          <p className="para">
+            Self-taught developer grinding in Newton School BootCamp (MERN Stack Devoloper). My
             expertise is in the area of responsive design. With every line of
             code, I strive to make the web a beautiful place.
           </p>
@@ -50,6 +53,7 @@ const Hero = styled.div`
       padding-right: 0px;
     }
   }
+
 
   p {
     font-size: 1rem;

@@ -1,20 +1,8 @@
 export const projectData = [
+ 
   {
     id: 0,
-    title: "Breaking Bad Character | Newton School |",
-    detail:<pre>Following challenges has been learnt
-      <br/>
-    ● Create a webpage to search about the breaking bad cast.<br/>
-    ● Render all the characters if the search field is empty.<br/>
-    ● Use pagination to organized the number of characters on one page.<br/>
-    ● On Hover over each page spin the image and show some details about the character.<br/></pre>,
-    tech: ["React", "React-Router"],
-    github: "",
-    appLink: "https://character-breaking-bad.herokuapp.com/",
-  },
-  {
-    id: 1,
-    title: "Github userAdd-to-cart",
+    title: "Add-to-cart",
     detail:<pre>● Problem-solving skill<br/>
     ● Coding skill<br/>
     ● UI skills<br/>
@@ -26,16 +14,7 @@ export const projectData = [
     appLink: "",
   },
   {
-    id: 2,
-    title: "Breaking Bad Character",
-    detail:
-      "Shows every character from Breaking Bad with their personal details with ability to search by name.",
-    tech: ["React", "The Breaking Bad API", "Styled-Components"],
-    github: "",
-    appLink: "https://breakingbad-character-cards.netlify.app/",
-  },
-  {
-    id: 3,
+    id: 1,
     title: "Youtube Clone by Akshay | Newton School |",
     detail:<pre>YouTube clone is project which is exact replica of the original one<br/> which sharpen following skills:-<br/>
     ● HTML , CSS , JavaScript<br/>
@@ -46,4 +25,52 @@ export const projectData = [
     github: "https://youtube-clone-byakshay.herokuapp.com/",
     appLink: "https://github.com/AkshayChavhan/YouTube-Clone-by-Akshay-Chavhan",
   },
+  {
+    id: 2,
+    title: "Amazon Clone by Akshay | Newton School |",
+    detail:<pre>Amazon clone is project which is exact replica of the original one<br/> which sharpen following skills:-<br/>
+    ● HTML , CSS , JavaScript<br/>
+    ● Responsive Website<br/>
+    ● DOM Manipulation<br/></pre>,
+    tech: ["React"],
+    github: "https://github.com/AkshayChavhan/amazon-clone",
+    appLink: "https://amazoncloneakshay.netlify.app/",
+  },
+  {
+    id: 3,
+    title: "Personal Portfolio | Newton School |",
+    detail:<pre>Personal Portfolio includes all career , skills and extra curruculum<br/> activities which sharpen following skills:-<br/>
+    ● HTML , CSS , JavaScript<br/>
+    ● Styled Components<br/>
+    ● Responsive Website<br/>
+    ● DOM Manipulation<br/></pre>,
+    tech: ["React"],
+    github: "https://github.com/AkshayChavhan/amazon-clone",
+    appLink: "https://github.com/AkshayChavhan/personal-portfolio-react-v3",
+  },
+  {
+    id: 4,
+    title: "Contact Manager App ",
+    detail:<pre>Contact Manager App includes all feature including adding ,editing <br/> and saving in localmemory following skills:-<br/>
+    ● HTML , CSS , JavaScript<br/>
+    ● Responsive Website<br/>
+    ● DOM Manipulation<br/></pre>,
+    tech: ["React"],
+    github: "https://github.com/AkshayChavhan/contact_manager_app",
+    appLink: "https://github.com/AkshayChavhan/personal-portfolio-react-v3",
+  },
+  {
+    id: 5,
+    title: "Breaking Bad Character | Newton School |",
+    detail:<pre>Following challenges has been learnt
+      <br/>
+    ● Create a webpage to search about the breaking bad cast.<br/>
+    ● Render all the characters if the search field is empty.<br/>
+    ● Use pagination to organized the number of characters on one page.<br/>
+    ● On Hover over each page spin the image and show some details about the character.<br/></pre>,
+    tech: ["React", "React-Router"],
+    github: "https://github.com/AkshayChavhan/Breaking_bad_characters",
+    appLink: "https://character-breaking-bad.herokuapp.com/",
+  },
+
 ];
